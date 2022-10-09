@@ -34,6 +34,14 @@
       <None Include="Builder\BuilderParameter.cs" />
       <Compile Remove="Factory\PointExample.cs" />
       <None Include="Factory\PointExample.cs" />
+      <Compile Remove="Factory\FactoryMethod.cs" />
+      <None Include="Factory\FactoryMethod.cs" />
+      <Compile Remove="Factory\Factory.cs" />
+      <None Include="Factory\Factory.cs" />
+      <Compile Remove="Factory\NestedFactory.cs" />
+      <None Include="Factory\NestedFactory.cs" />
+      <Compile Remove="Factory\AsyncFactoryExample.cs" />
+      <None Include="Factory\AsyncFactoryExample.cs" />
     </ItemGroup>
 
 </Project>

@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="SOLID\SingleResponsibility.cs" />
+      <None Include="SOLID\SingleResponsibility.cs" />
+      <Compile Remove="SOLID\OpenClosed.cs" />
+      <None Include="SOLID\OpenClosed.cs" />
+      <Compile Remove="SOLID\Liskov.cs" />
+      <None Include="SOLID\Liskov.cs" />
+      <Compile Remove="SOLID\InterfaceSegregation.cs" />
+      <None Include="SOLID\InterfaceSegregation.cs" />
+      <Compile Remove="SOLID\DependencyInversion.cs" />
+      <None Include="SOLID\DependencyInversion.cs" />
+      <Compile Remove="Builder\StringBuilderExample.cs" />
+      <None Include="Builder\StringBuilderExample.cs" />
+      <Compile Remove="Builder\Builder.cs" />
+      <None Include="Builder\Builder.cs" />
+      <Compile Remove="Builder\FluentBuilder.cs" />
+      <None Include="Builder\FluentBuilder.cs" />
+      <Compile Remove="Builder\MultiBuilder.cs" />
+      <None Include="Builder\MultiBuilder.cs" />
+      <Compile Remove="Builder\FluentBuilderInheritance.cs" />
+      <None Include="Builder\FluentBuilderInheritance.cs" />
+      <Compile Remove="Builder\FunctionalBuilder.cs" />
+      <None Include="Builder\FunctionalBuilder.cs" />
+      <Compile Remove="Builder\BuilderParameter.cs" />
+      <None Include="Builder\BuilderParameter.cs" />
+      <Compile Remove="Factory\PointExample.cs" />
+      <None Include="Factory\PointExample.cs" />
+    </ItemGroup>
+
+</Project>
